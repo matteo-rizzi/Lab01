@@ -48,7 +48,7 @@ public class FXMLController {
     	txtResult.setText(elencoArray.toString());
     	txtParola.clear();
     	double tempo = stop-start;
-    	txtTempi.appendText(tempo + "\n");
+    	txtTempi.appendText(tempo + " nanosecondi\n");
     }
 
     @FXML
@@ -58,7 +58,7 @@ public class FXMLController {
     	elencoArray.reset();
     	double stop = System.nanoTime();
     	double tempo = stop-start;
-    	txtTempi.appendText(tempo + "\n");
+    	txtTempi.appendText(tempo + " nanosecondi\n");
     }
     
     @FXML
@@ -68,7 +68,7 @@ public class FXMLController {
     	double stop = System.nanoTime();
     	txtResult.setText(elencoArray.toString());
     	double tempo = stop-start;
-    	txtTempi.appendText(tempo + "\n");
+    	txtTempi.appendText(tempo + " nanosecondi\n");
     }
 
     
