@@ -1,14 +1,13 @@
 package it.polito.tdp.parole.model;
 
-import java.util.List;
 import java.util.*;
 
-public class Parole {
-
+public class ParoleArray {
+	
 	List<String> parole;
 
-	public Parole() {
-		parole = new LinkedList<String>();
+	public ParoleArray() {
+		parole = new ArrayList<String>();
 	}
 
 	public void addParola(String p) {
@@ -48,5 +47,6 @@ public class Parole {
 		}
 		return s;
 	}
+
 
 }

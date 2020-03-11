@@ -28,6 +28,7 @@
                </children>
             </HBox>
             <TextArea fx:id="txtResult" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" />
+            <TextArea fx:id="txtTempi" prefHeight="100.0" prefWidth="200.0" />
          </children>
       </VBox>
    </center>
@@ -45,7 +46,7 @@
             <Button fx:id="btnReset" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#doReset" text="Reset" />
          </children>
          <BorderPane.margin>
-            <Insets top="5.0" />
+            <Insets top="7.0" />
          </BorderPane.margin>
       </HBox>
    </bottom>
